@@ -9,6 +9,7 @@ import {
   Nexus,
   superstore360,
   Nexuspoint,
+  vedabot,
 } from "../assets";
 
 export const navLinks = [
@@ -97,7 +98,7 @@ const projects = [
   {
     name: "Superstore-360",
     description:
-      "Superstore-360 is a full-featured e-commerce web application with CRUD operations.",
+      "Your one-stop shop for endless possibilities!",
     tags: [
       {
         name: "mongodb",
@@ -123,25 +124,55 @@ const projects = [
   {
     name: "Nexus",
     description:
-      "Nexus provides a platform where students can connect, share, collaborate, and engage with various coding contests.",
+      "Connect, Compete and Thrive Together",
     tags: [
       {
         name: "mongodb",
         color: "blue-text-gradient",
       },
       {
-        name: "react",
+        name: "expressjs",
         color: "green-text-gradient",
       },
       {
-        name: "Chakra UI",
+        name: "react",
         color: "pink-text-gradient",
+      },
+      {
+        name: "node",
+        color: "orange-text-gradient",
       },
     ],
     image: Nexuspoint,
-    source_code_link: "https://github.com/priyanshverma444/nexus-backend",
-    live_link: "https://nexuspoint.vercel.app/",
+    source_code_link: "https://github.com/The-Nexus-Connect",
+    live_link: "https://nexusconnect.vercel.app/",
   },
+  {
+    name: "VedaBot",
+    description:
+      "Take your health into your hands",
+    tags: [
+      {
+        name: "mongodb",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: vedabot,
+    source_code_link: "https://github.com/VedaBot-by-VedaVitals",
+    live_link: "https://vedabot.vercel.app/",
+  }
 ];
 
 export { services, technologies, experiences, projects };

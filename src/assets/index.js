@@ -16,6 +16,7 @@ import DevUp from "./company/DevUp.png";
 
 import superstore360 from "./superstore360.png";
 import Nexuspoint from "./Nexuspoint.png";
+import vedabot from "./vedabot.png";
 
 import instagram from "./instagram.png";
 import twitter from "./twitter.png";
@@ -39,6 +40,7 @@ export {
   DevUp,
   superstore360,
   Nexuspoint,
+  vedabot,
   Nexus,
   instagram,
   twitter,

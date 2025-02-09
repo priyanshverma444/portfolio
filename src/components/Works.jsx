@@ -28,24 +28,26 @@ const ProjectCard = ({
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
-          <img
-            src={image}
-            alt="project_image"
-            className="w-full h-full object-cover rounded-2xl"
-          />
+          <div className="relative w-full h-[180px]">
+            <img
+              src={image}
+              alt="project_image"
+              className="w-full h-full object-cover rounded-2xl"
+            />
+          </div>
 
-          <div className="absolute inset-0 flex justify-end mt-44 card-img_hover">
-            <div
-              onClick={() => window.open(live_link, "_blank")}
-              className="black-gradient w-12 h-12 rounded-full flex justify-center items-center cursor-pointer mx-1"
-            >
-              <img src={live} alt="Live link" />
-            </div>
+          <div className="absolute inset-0 flex justify-center mt-48 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-12 h-12 rounded-full flex justify-center items-center cursor-pointer mx-1"
+              className="black-gradient w-12 h-12 rounded-full flex justify-center items-center cursor-pointer mx-12"
             >
               <img src={githublink} alt="source code" />
+            </div>
+            <div
+              onClick={() => window.open(live_link, "_blank")}
+              className="black-gradient w-12 h-12 rounded-full flex justify-center items-center cursor-pointer mx-12"
+            >
+              <img src={live} alt="Live link" />
             </div>
           </div>
         </div>

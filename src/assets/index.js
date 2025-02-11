@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import githublink from "./githublink.png";
@@ -26,7 +25,6 @@ import live from "./live.png";
 import dp from "./dp.png";
 
 export {
-  logo,
   mobile,
   web,
   menu,

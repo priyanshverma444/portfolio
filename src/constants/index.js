@@ -67,7 +67,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
+    title: "CP Lead & Full-Stack Developer",
     company_name: "DevUp",
     icon: DevUp,
     iconBg: "#383E56",
@@ -79,19 +79,19 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Full-Stack Developer",
-    company_name: "Nexus",
-    icon: Nexus,
-    iconBg: "#E6DEDD",
-    date: "May 2024 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers and other developers.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full-Stack Developer",
+  //   company_name: "Nexus",
+  //   icon: Nexus,
+  //   iconBg: "#E6DEDD",
+  //   date: "May 2024 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers and other developers.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const projects = [

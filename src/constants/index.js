@@ -73,25 +73,13 @@ const experiences = [
     iconBg: "#383E56",
     date: "January 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using MERN stack and other related technologies.",
       "Collaborating with cross-functional teams including designers and other developers.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Mentoring juniors in my domains of expertise.",
+      "Organizing and managing competitive programming contests, their results and other events.",
     ],
   },
-  // {
-  //   title: "Full-Stack Developer",
-  //   company_name: "Nexus",
-  //   icon: Nexus,
-  //   iconBg: "#E6DEDD",
-  //   date: "May 2024 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers and other developers.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
 ];
 
 const projects = [

@@ -26,7 +26,7 @@ const Hero = () => {
             <div className="cp">CP Enthusiast</div>
           </p>
           <a
-            href="/resume.pdf"
+            href="/Priyansh_Verma_Resume.pdf"
             download="Priyansh_Verma_Resume.pdf"
             className="bg-violet-700 text-white font-bold py-2 px-4 rounded mt-4"
           >

@@ -4,9 +4,11 @@ import {
   p3,
   p4,
   p5,
+  p6,
   web,
   DevUp,
   Nexus,
+  ProInfo,
   superstore360,
   Nexuspoint,
   vedabot,
@@ -33,11 +35,11 @@ const services = [
     icon: web,
   },
   {
-    title: "CP Enthusiast",
+    title: "Competitive Programmer",
     icon: web,
   },
   {
-    title: "Problem Solver",
+    title: "Blockchain Enthusiast",
     icon: web,
   },
 ];
@@ -63,6 +65,10 @@ const technologies = [
     name: "C-CPP-Java-Python",
     icon: p5,
   },
+  {
+    name: "GCP-Docker-Postgres-NestJS",
+    icon: p6,
+  },
 ];
 
 const experiences = [
@@ -71,13 +77,24 @@ const experiences = [
     company_name: "DevUp",
     icon: DevUp,
     iconBg: "#383E56",
-    date: "January 2023 - Present",
+    date: "January 2023 - June 2025",
     points: [
       "Developing and maintaining web applications using MERN stack and other related technologies.",
       "Collaborating with cross-functional teams including designers and other developers.",
       "Participating in code reviews and providing constructive feedback to other developers.",
       "Mentoring juniors in my domains of expertise.",
       "Organizing and managing competitive programming contests, their results and other events.",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "ProInfo Technologies",
+    icon: ProInfo,
+    iconBg: "#383E56",
+    date: "July 2025 - Present",
+    points: [
+      "Implemented end-to-end backend for platterhub.ai's brand site; integrated Stripe and Monday forms.",
+      "Built campaign brief, persona, storyboard, AI-generated UGC video generator engines and DigiBox",
     ],
   },
 ];

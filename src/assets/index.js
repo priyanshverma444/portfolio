@@ -9,9 +9,11 @@ import p2 from "./tech/p2.png";
 import p3 from "./tech/p3.png";
 import p4 from "./tech/p4.png";
 import p5 from "./tech/p5.png";
+import p6 from "./tech/p6.png";
 
 import Nexus from "./company/Nexus.png";
 import DevUp from "./company/DevUp.png";
+import ProInfo from "./company/proinfo.webp";
 
 import superstore360 from "./superstore360.png";
 import Nexuspoint from "./Nexuspoint.png";
@@ -35,7 +37,9 @@ export {
   p3,
   p4,
   p5,
+  p6,
   DevUp,
+  ProInfo,
   superstore360,
   Nexuspoint,
   vedabot,
